@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.82″ TFT 280×1020（AXS15231B · MIPI）</h1>
 
-<p align="center"><b>条状 TFT 模组 · MIPI · AXS15231B · 电容触摸</b></p>
+<p align="center"><b>TFT 模组 · MIPI · AXS15231B · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -15,76 +15,54 @@
 
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [YDP382B001-V13](#ydp382b001-v13)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **3.82 寸 280×1020 TFT** 是一款 **MIPI** 接口彩色显示模组，显示驱动与触摸均为 **AXS15231B**（电容触摸经 I2C）。适合条状 HMI、侧边信息条与窄条交互面板等场景。
+本仓库收录 **3.82 寸 280×1020 TFT（MIPI · AXS15231B）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`3.82-tft-280x1020-mipi-axs15231b`
 
-当前模组版本：**YDP382B001-V13**。电气与外形细节以 [`docs/YDP_382_B001_V13_9b4d899817.pdf`](./docs/YDP_382_B001_V13_9b4d899817.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 3.82 英寸 |
-| 类型 | TFT（彩色） |
-| 分辨率 | 280×1020 |
-| 接口 | MIPI |
-| 驱动 IC | AXS15231B |
-| 触摸驱动 | AXS15231B |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| YDP382B001-V13 | — | [查看详情](#ydp382b001-v13) |
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+---
 
-## 示例工程
+## YDP382B001-V13
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-P4 · AXS15231B MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/) |
+**说明：** 模组。
 
-## 仓库结构
+---
 
-```text
-3.82-tft-280x1020-mipi-axs15231b/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化等
-└── examples/        # 示例工程
-```
+## 如何切换分支
 
-## 相关资料
+完整产品资料在各**版本分支**中；`main` 仅作导航。
 
-### 本产品资料
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（YDP382B001-V13） | [`docs/YDP_382_B001_V13_9b4d899817.pdf`](./docs/YDP_382_B001_V13_9b4d899817.pdf) |
-| 驱动 IC 数据手册（AXS15231B） | [`docs/AXS_15231_B_Datasheet_V0_9_20240221_5a76ce6ce2.pdf`](./docs/AXS_15231_B_Datasheet_V0_9_20240221_5a76ce6ce2.pdf) |
-| 初始化序列（文本） | [`docs/YP008_Lint_231+信利3.82_V07.txt`](./docs/YP008_Lint_231%2B%E4%BF%A1%E5%88%A93.82_V07.txt) |
-
-### 示例工程
-
-- [ESP32-P4 AXS15231B MIPI + LVGL9](./examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/)
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -94,6 +72,8 @@ OSPTEK **3.82 寸 280×1020 TFT** 是一款 **MIPI** 接口彩色显示模组，
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 

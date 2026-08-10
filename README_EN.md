@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 3.82″ TFT 280×1020 (AXS15231B · MIPI)</h1>
 
-<p align="center"><b>Bar TFT module · MIPI · AXS15231B · capacitive touch</b></p>
+<p align="center"><b>TFT module · MIPI · AXS15231B · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 3.82 inch" src="https://img.shields.io/badge/Size-3.82%22-3498DB?style=flat-square" />
@@ -15,79 +15,57 @@
 
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP382B001-V13](#ydp382b001-v13)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **3.82″ 280×1020 TFT** is a **MIPI** color display module. Display and capacitive touch are both driven by **AXS15231B** (touch over I2C). Suited to bar-style HMI and narrow side panels.
+This repository holds materials for the **3.82″ 280×1020 TFT (MIPI · AXS15231B)** module family.
 
-Spec ID (repository name): `3.82-tft-280x1020-mipi-axs15231b`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP382B001-V13**. Electrical and mechanical details follow [`docs/YDP_382_B001_V13_9b4d899817.pdf`](./docs/YDP_382_B001_V13_9b4d899817.pdf).
+Repo id: `3.82-tft-280x1020-mipi-axs15231b`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 3.82 inch |
-| Type | TFT (color) |
-| Resolution | 280×1020 |
-| Interface | MIPI |
-| Driver IC | AXS15231B |
-| Touch driver | AXS15231B |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP382B001-V13 | — | [Details](#ydp382b001-v13) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-P4 · AXS15231B MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/) |
+## YDP382B001-V13
 
-## Repository layout
+**Notes:** Module.
 
-```text
-3.82-tft-280x1020-mipi-axs15231b/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # datasheets, init, etc.
-└── examples/        # sample projects
-```
+---
 
-## Resources
+## How to Switch Branches
 
-### Product files
+Full product materials are on each **version branch**; `main` is navigation only.
 
-| Resource | Link |
-| ---- | ---- |
-| Product datasheet (YDP382B001-V13) | [`docs/YDP_382_B001_V13_9b4d899817.pdf`](./docs/YDP_382_B001_V13_9b4d899817.pdf) |
-| Driver IC datasheet (AXS15231B) | [`docs/AXS_15231_B_Datasheet_V0_9_20240221_5a76ce6ce2.pdf`](./docs/AXS_15231_B_Datasheet_V0_9_20240221_5a76ce6ce2.pdf) |
-| Init sequence (text) | [`docs/YP008_Lint_231+信利3.82_V07.txt`](./docs/YP008_Lint_231%2B%E4%BF%A1%E5%88%A93.82_V07.txt) |
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-### Samples
+---
 
-- [ESP32-P4 AXS15231B MIPI + LVGL9](./examples/P4-IDF_AXS15231B-MIPI_ESP-LVGL-PORT_V9/)
-
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -95,13 +73,15 @@ Current module version: **YDP382B001-V13**. Electrical and mechanical details fo
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
