@@ -38,11 +38,13 @@ Repo id: `3.82-tft-280x1020-mipi-axs15231b`
 
 | Version | Image | Notes |
 | ------- | ----- | ----- |
-| YDP382B001-V13 | — | [Details](#ydp382b001-v13) |
+| YDP382B001-V13 | <img alt="YDP382B001-V13" src="./images/YDP382B001-V13.png" width="120" /> | [Details](#ydp382b001-v13) |
 
 ---
 
 ## YDP382B001-V13
+
+<p align="center"><img alt="YDP382B001-V13" src="./images/YDP382B001-V13.png" width="320" /></p>
 
 **Notes:** With touch (AXS15231B).
 

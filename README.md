@@ -38,11 +38,13 @@
 
 | 版本 | 宣传图 | 说明 |
 | ---- | ------ | ---- |
-| YDP382B001-V13 | — | [查看详情](#ydp382b001-v13) |
+| YDP382B001-V13 | <img alt="YDP382B001-V13" src="./images/YDP382B001-V13.png" width="120" /> | [查看详情](#ydp382b001-v13) |
 
 ---
 
 ## YDP382B001-V13
+
+<p align="center"><img alt="YDP382B001-V13" src="./images/YDP382B001-V13.png" width="320" /></p>
 
 **说明：** 带触摸（AXS15231B）。
 
