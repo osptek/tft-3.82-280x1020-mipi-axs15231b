@@ -31,7 +31,7 @@
 
 OSPTEK **3.82″ 280×1020 TFT** is a **MIPI** color display module. Display and capacitive touch are both driven by **AXS15231B** (touch over I2C). Suited to bar-style HMI and narrow side panels.
 
-Spec ID (repository name): `3.82-tft-280x1020-mipi-axs15231b`
+Spec ID (repository name): `tft-3.82-280x1020-mipi-axs15231b`
 
 Current module version: **YDP382B001-V13**. Electrical and mechanical details follow [`docs/YDP_382_B001_V13_9b4d899817.pdf`](./docs/YDP_382_B001_V13_9b4d899817.pdf).
 
@@ -57,7 +57,7 @@ Current module version: **YDP382B001-V13**. Electrical and mechanical details fo
 ## Repository layout
 
 ```text
-3.82-tft-280x1020-mipi-axs15231b/                                # repo root (nav: ../../README_EN.md)
+tft-3.82-280x1020-mipi-axs15231b/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP382B001-V13/                                # full materials for this part number
         ├── README.md
