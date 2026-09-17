@@ -6,6 +6,7 @@ panel: tft
 resolution: 280x1020
 interface: [mipi]
 shape: rect
+corner: sharp
 
 versions:
   - id: YDP382B001-V13
